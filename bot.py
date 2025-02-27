@@ -3,7 +3,8 @@ import os
 
 from telegram.ext import CommandHandler, Updater
 
-from ilovepdf_bot.commands import (imgtopdf_handler, officetopdf_handler,
+from ilovepdf_bot.commands import (addpagenumbers_handler, compress_handler,
+                                   imgtopdf_handler, officetopdf_handler,
                                    pdfa_handler, pdftojpg_handler,
                                    protectpdf_handler, rotatepdf_handler,
                                    splitpdf_handler, unlockpdf_handler,
