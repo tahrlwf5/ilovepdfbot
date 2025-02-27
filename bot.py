@@ -1,14 +1,9 @@
-import sys
-import os
-
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
 import logging
 import os
 
 from telegram.ext import CommandHandler, Updater
 
-from ilovepdf_bot.commands import (addpagenumbers_handler, compress_handler,
+from ilovepdf_bot import (addpagenumbers_handler, compress_handler,
                                    imgtopdf_handler, officetopdf_handler,
                                    pdfa_handler, pdftojpg_handler,
                                    protectpdf_handler, rotatepdf_handler,
