@@ -3,12 +3,6 @@ import os
 
 from telegram.ext import CommandHandler, Updater
 
-from commands import (addpagenumbers_handler, compress_handler,
-                                   imgtopdf_handler, officetopdf_handler,
-                                   pdfa_handler, pdftojpg_handler,
-                                   protectpdf_handler, rotatepdf_handler,
-                                   splitpdf_handler, unlockpdf_handler,
-                                   watermark_handler)
                                    
 
 token = os.getenv('BOT_TOKEN')
